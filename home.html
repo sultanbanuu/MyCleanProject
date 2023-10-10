@@ -845,5 +845,18 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="assets/js/home.js"></script>
+
+    <script>
+      const homeIndicators = document.querySelector('.home-indicators');
+      const img = document.querySelector('.background-img2');
+
+      const setImageHeight = () => {
+        img.style.height = homeIndicators.getBoundingClientRect().top + 5 + 'px';
+      }
+
+      setImageHeight();
+
+      window.addEventListener('resize', e => setImageHeight());
+    </script>
   </body>
 </html>

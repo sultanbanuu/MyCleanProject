@@ -1350,6 +1350,12 @@ img.hover-shadow {
   flex: 0;
 }
 
+
+.company-blog-header .blog-text > h2 {
+  display: inline;
+}
+
+
 @media screen and (max-width: 1081px) {
   .company-blog-header .blog-text > h2 {
     left: 1rem;
@@ -1486,6 +1492,10 @@ img.hover-shadow {
 
   /* blog-page */
 
+  .blog-item-lists .background-img13 > img {
+    width: 100%;
+  }
+
   .blog-items .blog-item {
     flex-direction: column;
     align-items: center;
@@ -1501,12 +1511,12 @@ img.hover-shadow {
     align-items: center;
   }
 
-  .blog-item-main .background-img13 {
+  /* .blog-item-main .background-img13 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 125%;
-  }
+  } */
 
   .blog-item-lists {
     width: 51%;
@@ -1521,9 +1531,9 @@ img.hover-shadow {
     width: 100%;
   }
 
-  .car-blogs .item-content {
+  /* .car-blogs .item-content {
     max-width: 88rem;
-  }
+  } */
 
   .blog-item-lists .item-content {
     width: 100%;
@@ -1642,6 +1652,7 @@ img.hover-shadow {
   /* blog-item */
   .company-blog-header .blog-text > h2 {
     font-size: 9rem;
+    /* display: inline; */
   }
 
   .category-icon {
@@ -1735,6 +1746,7 @@ img.hover-shadow {
     font-size: 4.4rem;
     line-height: 4.4rem;
     letter-spacing: 0.1rem;
+    /* display: inline; */
   }
 
   .company-info {
